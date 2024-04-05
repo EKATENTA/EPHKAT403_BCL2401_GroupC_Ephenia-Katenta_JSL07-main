@@ -1,0 +1,95 @@
+body {
+    font-family: 'Raleway', serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#cardForm {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0074e4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056a7;
+}
+
+/* Certificate Modal Adjustments */
+
+.modal {
+    width: 100%; /* Make modal full width */
+    max-width: 100%; /* Ensure it does not exceed the screen size */
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.modal-content {
+    width: 100%; /* Adjust content width to be full width within the modal */
+    max-width: 800px; /* Optional: Adjust for better aesthetics */
+    margin: auto; /* Centering if not full width */
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border: 3px solid #659f8f;
+}
+
+/* Ensure the logo fits within the certificate content */
+#certificateContent {
+    font-family: 'Raleway', serif;
+    color: #333;
+    padding: 20px;
+    background-color: #189eb6;
+    border: 2px solid #dc7f5f;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-size: contain; /* Adjust background size to contain for the logo to fit */
+    background-position: center; /* Center the background (useful if it's your logo) */
+    background-repeat: no-repeat; /* Prevent logo repetition */
+}
+
+/* Adding a fancy border to the certificate content */
+#certificateContent {
+  background: #f9f9f9 url('') center/contain no-repeat;
+}
+
+/* Updated button styles to fit the theme */
+button {
+    background-color: #659f8f;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #5d5f5e;
+}
+
