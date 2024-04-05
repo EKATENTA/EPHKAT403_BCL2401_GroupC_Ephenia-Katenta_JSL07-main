@@ -69,7 +69,7 @@ button:hover {
     font-family: 'Raleway', serif;
     color: #333;
     padding: 20px;
-    background-color: #189eb6;
+    background-color: #a0f8f1;
     border: 2px solid #dc7f5f;
     border-radius: 10px;
     margin: 20px 0;
@@ -80,7 +80,7 @@ button:hover {
 
 /* Adding a fancy border to the certificate content */
 #certificateContent {
-  background: #f9f9f9 url('') center/contain no-repeat;
+  background: #a2f7f7 url('') center/contain no-repeat;
 }
 
 /* Updated button styles to fit the theme */
